@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00ffff;
+}
+body h1{
+    text-align: center;
+    margin-top: 15px;
+}
+@media screen and (max-width:1440px){ 
+    body{
+        background-color: #008000;
+    }
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-color: #ab862e;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: #7fffd4;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        background-color: #c00404ac;
+    }
+}
